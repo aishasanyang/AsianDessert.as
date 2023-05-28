@@ -1,0 +1,108 @@
+
+
+body{
+  margin: 0;
+}
+
+.hehe{
+    background-color: rgb(251, 201, 217);
+    height: 90px;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(240, 183, 201);
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+    border-left: 1px solid rgb(255, 255, 255);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+
+  .container{
+    position: relative;
+    top: -25px;
+  }
+
+  .strawmilk{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    column-count: 4;
+    grid-template-rows: 4;
+    gap: 70px;
+
+  }
+
+  .food{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 187, 203);
+    color: white;
+    height: 6em;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    top: 5px;
+  }
+
+  .fod{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 187, 203);
+    color: white;
+    height: 6em;
+    row-gap: 8px;
+
+  }
+
+.foood{
+    display: grid;
+    column-count: 2;
+    grid-template-columns: 2;
+    row-gap: 10px;
+    
+}
+
+p{
+  padding: 3px;
+}
+
+.tog{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 3;
+  column-count: 4;
+  margin: 10px;
+}
+
+.scones{
+  grid-column: 1 / 2;
+
+}
+
+.bear{
+  grid-column: 3 / 4;
+}
+
+hr{
+  border: none;
+  border-top: 10px dotted rgb(240, 175, 196);
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 87em;
+}

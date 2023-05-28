@@ -1,0 +1,152 @@
+
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+   }
+
+.container{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration-style: none;
+
+}
+
+.asian{
+    background-color:  #e8b4b7;
+    position: relative;
+    top: -22px;
+}
+
+h1{
+    height: 80px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dfa6a9;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+    border-left: 1px solid rgb(255, 255, 255);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+
+
+header {
+    background-color: rgb(251, 252, 252);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+
+}
+
+
+.together{
+    display: grid;
+    column-count: 3;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2;
+    gap: 0.4em;
+    margin-top: 5px;
+
+}
+
+.mango{
+    display: grid;
+    place-items: center;
+    
+}
+
+.pouf{
+    display: grid;
+    margin-top: 70px;
+
+}
+
+.purin{
+    display: grid;
+    margin-top: 70px;
+}
+
+.puru1{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+
+}
+
+.puru2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #dfa6a9;
+    text-align: center;
+    width: 80em;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.milk{
+    grid-column: 1 / 2;
+
+}
+
+.caramel{
+    grid-column: 3 / 5;
+
+}
+
+.mcd{
+    background-color: #FFD7CD;
+    grid-column: -3 / -5;
+    width: 600px;
+    position: relative;
+    top: -20px;
+    height: 60px;
+
+}
+
+.cc{
+    background-color: #FFD7CD;
+    grid-column: -2 / -1;
+    width: 600px;
+    position: relative;
+    top: -79.9px;
+    height: 60px;
+}
+
+.ccaramel{
+    float: left;
+}
+
+.thanks{
+    display: grid;
+    column-count: 3;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 5px;
+}
+
+body{
+    background-color:#fef7f7;
+}
